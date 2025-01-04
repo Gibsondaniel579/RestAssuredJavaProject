@@ -1,0 +1,28 @@
+{
+  "bookings": [
+    {
+      "id": "1",
+      "firstname": "John",
+      "lastname": "Doe",
+      "room": "101"
+    },
+    {
+      "id": "2",
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "room": "102"
+    },
+    {
+      "id": "fe19",
+      "firstname": "Doen",
+      "lastname": "Doe",
+      "room": "555"
+    },
+    {
+      "id": "b172",
+      "firstname": "Doen",
+      "lastname": "Doe",
+      "room": "555"
+    }
+  ]
+}

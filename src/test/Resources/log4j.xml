@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Define the path for logs -->
+    <Property name="basePath">C:/Users/Gibso/Documents/RestAssuredJavaProject/src/test/logs</Property>
+
+    <!-- Console appender configuration -->
+    <Appenders>
+        <!-- Console appender configuration -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{ISO8601}] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <!-- File appender configuration -->
+        <File name="File" fileName="logs/application.log">
+            <PatternLayout pattern="[%d{ISO8601}] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+
+    <!-- File appender configuration -->
+    <appender name="File" class="org.apache.log4j.FileAppender">
+        <param name="File" value="${basePath}/application.log" />
+        <param name="Append" value="true" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%d{ISO8601}] %-5p %c{1}:%L - %m%n" />
+        </layout>
+    </appender>
+
+    <!-- Root logger configuration (debug level for troubleshooting) -->
+    <root level="debug">
+        <appender-ref ref="Console"/>
+        <appender-ref ref="File"/>
+    </root>
+
+</configuration>
