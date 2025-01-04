@@ -1,14 +1,9 @@
 package api.endpoints;
 
 import api.payloads.RestAPIPractice;
-import com.github.fge.msgsimple.bundle.PropertiesBundle;
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.testng.annotations.Test;
 
-import java.util.Map;
-import java.util.Properties;
 import java.util.ResourceBundle;
 
 import static io.restassured.RestAssured.given;
@@ -47,6 +42,7 @@ public class RestEndPoints {
     }
 
     public static Response DeleteUserDetail(int id) {
+        System.out.println("Commit check from local project(In Intellij)");
         return given().headers("Authorization", "Bearer " + bearerToken).contentType("application/json").pathParam("id", id).when().delete(Routes.deleteURLGOREST);
     }
 }
