@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="11.172" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="3.41" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="C:/Users/Gibso/OneDrive/Documents/chromedriver-win64/chromedriver-win64/chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\Gibso\Documents\RestAssuredJavaProject\target\test-classes;C:\Users\Gibso\Documents\RestAssuredJavaProject\target\classes;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\Gibso\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\Gibso\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Gibso\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Gibso\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Gibso\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Gibso\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Gibso\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Gibso\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Gibso\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Gibso\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Gibso\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Gibso\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Gibso\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gibso\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Gibso\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Gibso\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Gibso\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gibso\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Gibso\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Gibso\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Gibso\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Gibso\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Gibso\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Gibso\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Gibso\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Gibso\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Gibso\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Gibso\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Gibso\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Gibso\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Gibso\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gibso\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Gibso\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Gibso\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Gibso\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Gibso\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Gibso\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
@@ -15,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Gibso\AppData\Local\Temp\surefire11679282397825110459\surefirebooter-20250104201349175_3.jar C:\Users\Gibso\AppData\Local\Temp\surefire11679282397825110459 2025-01-04T20-13-49_019-jvmRun1 surefire-20250104201349175_1tmp surefire_0-20250104201349175_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Gibso\AppData\Local\Temp\surefire909986679902686324\surefirebooter-20250117092146988_3.jar C:\Users\Gibso\AppData\Local\Temp\surefire909986679902686324 2025-01-17T09-21-46_846-jvmRun1 surefire-20250117092146988_1tmp surefire_0-20250117092146988_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Gibso\Documents\RestAssuredJavaProject\target\test-classes;C:\Users\Gibso\Documents\RestAssuredJavaProject\target\classes;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\Gibso\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\Gibso\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\Gibso\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\Gibso\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Gibso\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Gibso\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Gibso\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Gibso\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Gibso\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Gibso\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Gibso\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Gibso\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Gibso\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Gibso\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Gibso\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Gibso\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Gibso\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Gibso\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Gibso\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Gibso\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Gibso\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Gibso\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Gibso\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Gibso\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Gibso\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Gibso\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\Gibso\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\Gibso\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Gibso\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Gibso\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Gibso\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Gibso\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Gibso\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Gibso\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Gibso\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Gibso\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Gibso\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Gibso\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gibso\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Gibso\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Gibso\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Gibso\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Gibso\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Gibso\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Gibso\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Gibso\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Gibso\AppData\Local\Temp\surefire11679282397825110459\surefirebooter-20250104201349175_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gibso\AppData\Local\Temp\surefire909986679902686324\surefirebooter-20250117092146988_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -43,261 +44,27 @@
     <property name="localRepository" value="C:\Users\Gibso\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Gibso\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.3"/>
     <property name="java.version" value="18.0.1.1"/>
     <property name="user.dir" value="C:\Users\Gibso\Documents\RestAssuredJavaProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\apache-maven-3.8.7\bin;C:\Program Files\nodejs\;C:\Users\Gibso\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gibso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Gibso\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\apache-maven-3.8.7\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Gibso\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gibso\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.1\bin;;C:\Users\Gibso\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="18.0.1.1+2-6"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="getAllData[Kumar, Michel.starc99@gmail.com, Male, active](1)" classname="api.test.DDTests" time="0.025">
-    <system-out><![CDATA[Kumar--Michel.starc99@gmail.com--Male--active
+  <testcase name="getElementsFromXML[125487, Justin fibre](1)" classname="api.test.UIAutomation" time="0.046">
+    <system-out><![CDATA[===================Welcome==================
+This is the value: 125487--Justin fibre
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="getAllData[Karthick, Bion.starc99@yahoo.com, Male, inactive](2)" classname="api.test.DDTests" time="0.001">
-    <system-out><![CDATA[Karthick--Bion.starc99@yahoo.com--Male--inactive
-]]></system-out>
-  </testcase>
-  <testcase name="getAllData[John, HelanKishore99@gmail.com, Male, inactive](3)" classname="api.test.DDTests" time="0.001">
-    <system-out><![CDATA[John--HelanKishore99@gmail.com--Male--inactive
-]]></system-out>
-  </testcase>
-  <testcase name="getAllData[Michel, Warner.david99@gmail.com, Male, inactive](4)" classname="api.test.DDTests" time="0.003">
-    <system-out><![CDATA[Michel--Warner.david99@gmail.com--Male--inactive
-]]></system-out>
-  </testcase>
-  <testcase name="getAllData[Starc, Toni.starc99@gmail.com, Male, active](5)" classname="api.test.DDTests" time="0.002">
-    <system-out><![CDATA[Starc--Toni.starc99@gmail.com--Male--active
-]]></system-out>
-  </testcase>
-  <testcase name="getUserNames[[Ljava.lang.Object;@385ef531](1)" classname="api.test.DDTests" time="0.003">
-    <system-out><![CDATA[getNames[Male]
-]]></system-out>
-  </testcase>
-  <testcase name="getUserNames[[Ljava.lang.Object;@719843e5](2)" classname="api.test.DDTests" time="0.003">
-    <system-out><![CDATA[getNames[Male]
-]]></system-out>
-  </testcase>
-  <testcase name="getUserNames[[Ljava.lang.Object;@58112bc4](3)" classname="api.test.DDTests" time="0.001">
-    <system-out><![CDATA[getNames[Male]
-]]></system-out>
-  </testcase>
-  <testcase name="getUserNames[[Ljava.lang.Object;@3104f7bd](4)" classname="api.test.DDTests" time="0.002">
-    <system-out><![CDATA[getNames[Male]
-]]></system-out>
-  </testcase>
-  <testcase name="getUserNames[[Ljava.lang.Object;@7ec25216](5)" classname="api.test.DDTests" time="0.001">
-    <system-out><![CDATA[getNames[Male]
-]]></system-out>
-  </testcase>
-  <testcase name="sendUsers[Kumar, Michel.starc99@gmail.com, Male, active](1)" classname="api.test.DDTests" time="2.912">
-    <system-out><![CDATA[https://gorest.co.in/public/v2
-HTTP/1.1 201 Created
-Date: Sat, 04 Jan 2025 14:43:55 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 98
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"53e17fa426522c9ddcefd17d18b5163c"
-feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
-location: https://gorest.co.in/public/v2/users/7618323
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: 4a60f8dd-9f9d-485e-8d33-4bb4a86725fa
-x-runtime: 0.060609
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eg1lwLeqTjtRN8J0ERF45ZSmIzI6%2F8gVahvuhCSdVLa28t2qcZIDDW7iEDKnEVwqbtozYkj7394otCxSaEpsi4T2dGjbO%2ByFGg2B3asA6shtP%2FT7Ofjgwnp58nmMpmU%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8fcc00eab866dcca-FRA
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=161708&min_rtt=159858&rtt_var=61268&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2694&recv_bytes=1073&delivery_rate=18266&cwnd=91&unsent_bytes=0&cid=7a9b1e6dc7df129a&ts=785&x=0"
-
-{
-    "id": 7618323,
-    "name": "Kumar",
-    "email": "Michel.starc99@gmail.com",
-    "gender": "male",
-    "status": "active"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="sendUsers[Karthick, Bion.starc99@yahoo.com, Male, inactive](2)" classname="api.test.DDTests" time="0.748">
-    <system-out><![CDATA[https://gorest.co.in/public/v2
-HTTP/1.1 201 Created
-Date: Sat, 04 Jan 2025 14:43:56 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 101
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"5dd4296de3fbd302621ed9e8b007cd86"
-feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
-location: https://gorest.co.in/public/v2/users/7618324
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: 90b18550-c879-41d1-91be-e8268443af12
-x-runtime: 0.059455
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2BwYiAmYPg%2B5Ak%2FIDFMlSOq9lXv8KGOnaHQEZfMH7ZXy%2FKYZSS4Hv1abAtV0RWUg6NkyqYMeyMWjMsqV6u3oIa8BIA78tsLotf2NW0C0o85o0R%2F%2BnDvJWQaG9lXuyobc%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8fcc00f27942d2a9-FRA
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=158292&min_rtt=158112&rtt_var=59653&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2693&recv_bytes=1076&delivery_rate=18300&cwnd=180&unsent_bytes=0&cid=bd7bf7ee7336f047&ts=396&x=0"
-
-{
-    "id": 7618324,
-    "name": "Karthick",
-    "email": "Bion.starc99@yahoo.com",
-    "gender": "male",
-    "status": "inactive"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="sendUsers[John, HelanKishore99@gmail.com, Male, inactive](3)" classname="api.test.DDTests" time="1.691">
-    <system-out><![CDATA[https://gorest.co.in/public/v2
-HTTP/1.1 201 Created
-Date: Sat, 04 Jan 2025 14:43:57 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 99
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"f6c58bd13d02efd20720a6679e7772cb"
-feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
-location: https://gorest.co.in/public/v2/users/7618325
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: 9e1b51ae-89cf-4449-9806-05d1b2d98f86
-x-runtime: 0.081246
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=CRHL%2Fm%2BT4kjSDG672lbzgaqJK2t4Oed666%2FH5TgUNXYAsB8nhoTn%2B%2BbR7A5bH4pMjvjfIIz5aLiW%2BIt7gaZl%2Fs3iMxGGsrwCLXJKVthbr9BngV0%2BollO5r%2BwzT%2Fc%2F%2F8%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8fcc00fa6e401b9f-FRA
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=141409&min_rtt=140692&rtt_var=54194&sent=7&recv=6&lost=0&retrans=1&sent_bytes=3924&recv_bytes=1074&delivery_rate=2535&cwnd=99&unsent_bytes=0&cid=0dd5c1ba75b2fc46&ts=1251&x=0"
-
-{
-    "id": 7618325,
-    "name": "John",
-    "email": "HelanKishore99@gmail.com",
-    "gender": "male",
-    "status": "inactive"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="sendUsers[Michel, Warner.david99@gmail.com, Male, inactive](4)" classname="api.test.DDTests" time="1.068">
-    <system-out><![CDATA[https://gorest.co.in/public/v2
-HTTP/1.1 201 Created
-Date: Sat, 04 Jan 2025 14:43:58 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 101
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"bdd1694632407451918747304f6d0ea8"
-feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
-location: https://gorest.co.in/public/v2/users/7618326
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: 5be657b0-d66c-432b-95fb-1b86328341cf
-x-runtime: 0.080532
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=J5hSv44Q9Crhv9c%2Bz2gnKowugXTsWm6jWNJqkYg7Yr5Y%2Fqtrrp6WQNKSp8w%2B21dHDe3snk8dHTg4qQUIGdxceukbWYD5Kul6LGwMuXrk%2BwPIdpYtpBaeV0y9oWWctZY%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8fcc0101becb4d70-FRA
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=166476&min_rtt=165970&rtt_var=62600&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2694&recv_bytes=1076&delivery_rate=17593&cwnd=135&unsent_bytes=0&cid=b21395e85795463e&ts=725&x=0"
-
-{
-    "id": 7618326,
-    "name": "Michel",
-    "email": "Warner.david99@gmail.com",
-    "gender": "male",
-    "status": "inactive"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="sendUsers[Starc, Toni.starc99@gmail.com, Male, active](5)" classname="api.test.DDTests" time="1.145">
-    <system-out><![CDATA[https://gorest.co.in/public/v2
-HTTP/1.1 201 Created
-Date: Sat, 04 Jan 2025 14:43:59 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 96
-Connection: keep-alive
-Cache-Control: max-age=0, private, must-revalidate
-etag: W/"974f36599d78f40c84748b618d83b06d"
-feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
-location: https://gorest.co.in/public/v2/users/7618327
-referrer-policy: strict-origin-when-cross-origin
-vary: Origin
-x-content-type-options: nosniff
-x-download-options: noopen
-x-frame-options: SAMEORIGIN
-x-permitted-cross-domain-policies: none
-x-ratelimit-limit: 90
-x-ratelimit-remaining: 89
-x-ratelimit-reset: 1
-x-request-id: 9dccab1e-153b-4517-9465-374bc05b4e96
-x-runtime: 0.086516
-x-xss-protection: 0
-cf-cache-status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=KU5WpkYPUI48uWyJ3yP46mKquJf5zz%2FazADGZFyccNFWN8ByQgMOQccqpirb5PAddOx0Y417Hehpu5hn0vlBKlFjAQwWsXktC%2FkHNHbJVbjvcV%2FDgypzcc4Ws8rUzuY%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 8fcc010868ca190d-FRA
-alt-svc: h3=":443"; ma=86400
-server-timing: cfL4;desc="?proto=TCP&rtt=149341&min_rtt=149293&rtt_var=56082&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2693&recv_bytes=1071&delivery_rate=19507&cwnd=94&unsent_bytes=0&cid=5f0ef5672408f589&ts=712&x=0"
-
-{
-    "id": 7618327,
-    "name": "Starc",
-    "email": "Toni.starc99@gmail.com",
-    "gender": "male",
-    "status": "active"
-}
-]]></system-out>
   </testcase>
 </testsuite>

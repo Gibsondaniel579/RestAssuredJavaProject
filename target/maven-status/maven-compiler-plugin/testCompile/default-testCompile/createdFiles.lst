@@ -3,6 +3,7 @@ api\test\UserTests.class
 api\test\TestClass.class
 api\utilities\DataProviders.class
 api\payloads\RestAPIPractice.class
+api\test\CheckTest.class
 api\endpoints\Routes.class
 api\test\DDTests.class
 api\mockapidb\CheckAPIWithDB.class
@@ -10,4 +11,5 @@ api\endpoints\UserEndpoints.class
 api\utilities\ExtendReportManager.class
 api\payloads\User.class
 api\utilities\XLUtility.class
+api\test\UIAutomation.class
 api\endpoints\RestEndPoints.class

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="MyTestSuite">
+<suite thread-count = "2" name = "Parallel Test Suite" parallel = "classes">
     <listeners>
         <listener class-name="api.utilities.ExtendReportManager"/>
     </listeners>
     <test name="RESTGOAPITestCases">
         <!-- Define the classes to be tested -->
         <classes>
-            <class name="api.test.DDTests"/> <!-- Replace with your test class -->
+            <class name="api.test.UIAutomation"/>
+            <class name="api.test.DDTests"/>
         </classes>
     </test>
 </suite>
